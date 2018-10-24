@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="js/main.js"></script>
 </head>
 <body>
-    <p id="demo">hello world</p>
+ <form>
+  First name:
+  <input type="input" name="yourName">
+  <input
+  type="button"
+  onclick="displayMessage(form.yourName.value);"
+  value="Display Message">
+</form>
+<div id="hello"></div>
+<button type="button" id="btn">Say hello</button>
+<input type="text" placeholder="write your name" name="" id="name">
+
+<script src="js/main.js"></script>
+
+
+  <!-- input arguments in the order displayed on html -->
+
 </body>
 </html>

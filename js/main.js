@@ -7,18 +7,39 @@
 // variable type string
 // console shows name
 //add a var with a string (concatinate)
-var name= 'sally'
-var animal='dogs'
-var y=3
-var loc='America'
-console.log('my name is '+name+' and i own '+ y+' ' + animal+' and i live in '+loc)
-name= 'nuhaa'
-animal= 'cats'
-y=5
-loc='south africa'
-console.log('my name is '+name+' and i own '+ y+' ' + animal+' and i live in '+loc)
+// var name= 'sally'
+// var animal='dogs'
+// var y=3
+// var loc='America'
+// console.log('my name is '+name+' and i own '+ y+' ' + animal+' and i live in '+loc)
+// name= 'nuhaa'
+// animal= 'cats'
+// y=5
+// loc='south africa'
+// console.log('my name is '+name+' and i own '+ y+' ' + animal+' and i live in '+loc)
 // variables are interchanged
 
-if (new Date().getHours() < 18) {
-    document.getElementById("demo").innerHTML = "hello world";
+// if (new Date().getHours() < 18) {
+    // document.getElementById("demo").innerHTML = "hello world";
+// }
+function displayMessage(firstName) {
+    alert("Hello " + firstName + ", hope you like JavaScript functions! #jayson is awesome");
+}
+//declare a variable
+// var myName = 'sally';
+document.getElementById('btn').onclick=function(){
+    // grab inut value
+  var myName= document.getElementById('name').value
+if(myName){
+    // create my sentence
+    var sayHello = 'hi my name is ' + myName;
+//targeting an element in html
+
+    document.getElementById('hello').innerHTML= sayHello;
+} else{
+    alert('please enter your name.')
+}
+
+
+
 }
