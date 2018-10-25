@@ -43,3 +43,35 @@ if(myName){
 
 
 }
+document.getElementById("bttn").onclick=function() {
+    document.getElementById('x').innerHTML='hi'
+
+}
+
+document.getElementById("secondBttn").onclick=function(i){
+    
+    
+for (var i = 0; i < 3; i++) { 
+    
+
+    
+        if(i===1){
+            
+        document.getElementById('secondPara').innerHTML= "i think" + document.getElementById('secondPara').innerHTML + " awesome"
+
+        return i
+
+        }
+
+else{
+    alert('already clicked')
+
+}
+    
+    
+    
+}
+}
+document.getElementById('emptyBttn').onclick=function(){
+    document.getElementById('emptyPara').innerHTML= 'hello word'
+}
