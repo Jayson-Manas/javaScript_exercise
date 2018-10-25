@@ -75,3 +75,15 @@ else{
 document.getElementById('emptyBttn').onclick=function(){
     document.getElementById('emptyPara').innerHTML= 'hello word'
 }
+document.write("<p>what programming language has javascript library in it?")
+
+document.getElementById("ans").onclick=function(){
+    var answer = prompt('type answer below');
+    if( answer === 'jQuery') {
+        alert("<p>That's right");
+    }
+    else{
+        alert("<p>incorrect")
+    }
+}
+
