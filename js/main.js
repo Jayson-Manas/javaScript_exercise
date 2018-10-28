@@ -55,7 +55,7 @@ for (var i = 0; i < 3; i++) {
     
 
     
-        if(i===1){
+        if(i==1){
             
         document.getElementById('secondPara').innerHTML= "i think" + document.getElementById('secondPara').innerHTML + " awesome"
 
